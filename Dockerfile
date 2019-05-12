@@ -6,7 +6,7 @@ LABEL "version"="0.0.1"
 
 LABEL "com.github.actions.name"="Cypress.io for GitHub Actions"
 LABEL "com.github.actions.description"="Run a Cypress test in an Action"
-LABEL "com.github.actions.icon"="terminal"
+LABEL "com.github.actions.icon"="shield"
 LABEL "com.github.actions.color"="gray-dark"
 
 COPY LICENSE README.md /
