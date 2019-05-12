@@ -1,12 +1,12 @@
-## bash
+## Cypress Action
 
 ### Usage
 
-Executes each command listed in the Action's args via bash -c.
+Executes a cypress command.
 
 ```shell
-action "Setup" {
-  uses = "jcblw/bash@master"
-  args = ["cat <<<$MY_VAR > file.csv"]
+action "E2e" {
+  uses = "jcblw/cypress@master"
+  args = ["run"]
 }
 ```
