@@ -12,5 +12,5 @@ LABEL "com.github.actions.color"="gray-dark"
 COPY LICENSE README.md /
 
 COPY entrypoint.sh /entrypoint.sh
-RUN npm install cypress
+RUN npm install cypress --global
 ENTRYPOINT ["/entrypoint.sh"]
